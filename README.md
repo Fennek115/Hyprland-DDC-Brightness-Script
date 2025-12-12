@@ -1,4 +1,3 @@
-````markdown
 # Hyprland DDC/CI Brightness Control Script
 
 A high-performance Bash script designed to control external monitor brightness via DDC/CI (`ddcutil`) on Hyprland and other Wayland compositors. 
@@ -30,8 +29,7 @@ Ensure you have the following installed on your Arch Linux (or other) system:
 ```bash
 sudo pacman -S ddcutil
 sudo modprobe i2c-dev
-````
-
+```
 ### User Permissions (Critical)
 
 To run this without `sudo`, your user must have access to the I2C devices. Add your user to the `i2c` group (or `video`, depending on your configuration):
@@ -99,7 +97,7 @@ binde = ,XF86MonBrightnessDown, exec, ~/.config/hypr/scripts/brightness.sh down
 **The script runs but nothing happens.**
 
   * Check if `ddcutil` works manually in your terminal: `ddcutil getvcp 10 --bus=YOUR_BUS`.
-  * If it says "Permission denied", check the [User Permissions](https://www.google.com/search?q=%23user-permissions-critical) section above.
+  * If it says "Permission denied", check the [User Permissions](### User Permissions (Critical)) section above.
 
 **The brightness changes too slowly.**
 
