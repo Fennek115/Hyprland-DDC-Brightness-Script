@@ -109,7 +109,7 @@ binde = ,XF86MonBrightnessDown, exec, ~/.config/hypr/scripts/brightness.sh down
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENCE) file for details.
 
 ```
 
