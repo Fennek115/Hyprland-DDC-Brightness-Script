@@ -64,7 +64,7 @@ sudo usermod -aG i2c $USER
 1.  Clone this repository or download the script:
 
     ```bash
-    git clone [https://github.com/Fennek115/hyprland-ddc-brightness.git](https://github.com/Fennek115/hyprland-ddc-brightness.git)
+    git clone https://github.com/Fennek115/Hyprland-DDC-Brightness-Script
     cd hyprland-ddc-brightness
     ```
 
